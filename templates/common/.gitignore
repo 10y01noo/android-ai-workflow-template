@@ -1,0 +1,8 @@
+# Local review outputs
+.ai/tasks/*/review.md
+
+# Legacy/local AI scratch files
+.ai/*.md
+
+# Tool-local settings
+.claude/settings.local.json

@@ -1,0 +1,13 @@
+# このファイルはテンプレート開発リポジトリ自身の無視ルールです。
+# 採用先 Android プロジェクトへコピーする配布物は templates/common/.gitignore です。
+# この 2 つは別物です。
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# JetBrains IDEs
+.idea/
+*.iml
