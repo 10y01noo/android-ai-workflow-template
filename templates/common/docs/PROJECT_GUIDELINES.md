@@ -107,7 +107,7 @@ val uiState: StateFlow<XxxUiState> =
 
 - 通常の Fragment は `{{BASE_FRAGMENT_NAME}}` を継承する。
 - DialogFragment 系は基底 Fragment の適用可否を個別判断する。
-- ViewBinding は `autoClearedViewLifecycle` 相当の仕組みで `onDestroyView` 時に解放する。
+- ViewBinding は移植先で採用している仕組みに従い、view lifecycle に合わせて `onDestroyView` 時に解放する。
 - RecyclerView Adapter は view lifecycle に合わせて解放する。
 - `uiState` は lifecycle-aware に収集し `render()` に委譲する。
 - `uiEvent` は lifecycle-aware に収集し `handleEvent()` に委譲する。

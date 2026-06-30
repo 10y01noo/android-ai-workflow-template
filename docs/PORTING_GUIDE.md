@@ -38,7 +38,7 @@ templates/codex/.agents/
 | `{{BASE_PACKAGE}}` | Kotlin package の root | `com.example.shopping` |
 | `{{BASE_PACKAGE_PATH}}` | `{{BASE_PACKAGE}}` の `.` を `/` にした path | `com/example/shopping` |
 | `{{BASE_FRAGMENT_NAME}}` | 通常 Fragment の基底クラス名 | `BaseFragment` |
-| `{{LOGGER_CLASS}}` | ロガークラス名 | `AppLogger` |
+| `{{LOGGER_CLASS}}` | ロガークラス名 | `ProjectLogger` |
 | `{{LOG_SOURCE_PROPERTY}}` | ログ出力元を表す property 名 | `logSource` |
 | `{{DESIGN_SPEC_PATH}}` | 任意の既存 デザイン文書の path。デザイン文書がない場合は `N/A` | `docs/DESIGN_SYSTEM.md` / `N/A` |
 | `{{WORK_BRANCH_PATTERN}}` | 標準作業 branch pattern。変更しない場合は `feature/<task-id>` | `feature/<task-id>` |
